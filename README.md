@@ -41,9 +41,8 @@ pip install pyparc
 ## Basic usage
 
 Say we want to fit a piecewise affine model on a dataset of 1000 samples $(x,y)$, where $x=(x_1,x_2)$ has two numeric components randomly generated between 0 and 1, and $y$ is obtained by the following nonlinear function of $x$ 
-$$
-	y(x_1,x_2)=\sin\left(4x_{1}-5\left(x_{2}-\frac{1}{2}\right)^2\right)+2x_2
-$$
+
+$$y(x_1,x_2)=\sin\left(4x_{1}-5\left(x_{2}-\frac{1}{2}\right)^2\right)+2x_2$$
 
 <img src="http://cse.lab.imtlucca.it/~bemporad/parc/fig4.png" alt="drawing" width=55%/>
 <img src="http://cse.lab.imtlucca.it/~bemporad/parc/fig1.png" alt="drawing" width=40%/>
