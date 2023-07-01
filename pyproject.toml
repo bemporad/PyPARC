@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "glis"
+name = "pyparc"
 version = "2.0.0"
 authors = [
   { name="Alberto Bemporad", email="alberto.bemporad@imtlucca.it" },
@@ -11,7 +11,7 @@ authors = [
 description = "PARC - Piecewise Affine Regression and Classification"
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = ["numpy","scipy","sklearn","matplotlib","pypoman","mip","faiss","pickle"]
+dependencies = ["numpy","scipy","sklearn","matplotlib","pypoman","mip","faiss-cpu","pickle"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
