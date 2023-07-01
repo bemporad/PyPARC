@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyparc"
-version = "2.0.1"
+version = "2.0.2"
 authors = [
   { name="Alberto Bemporad", email="alberto.bemporad@imtlucca.it" },
 ]
 description = "PARC - Piecewise Affine Regression and Classification"
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = ["numpy","scipy","sklearn","matplotlib","pypoman","mip","faiss-cpu","pickle"]
+dependencies = ["numpy","scipy","sklearn","matplotlib","pypoman","mip","faiss-cpu","pickle-mixin"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
